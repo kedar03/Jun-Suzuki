@@ -15,4 +15,17 @@ Calculator cut = new Calculator();
 float actual = cut.divide(3,2);
 float expected = 1.5f;
 assertEquals(expected, actual); }
+
+@Test
+public void divide5By0(){
+Calculator cut = new Calculator();
+try{
+cut.divide(5, 0);
+fail("Division by zero");
+}
+catch(IllegalArgumentException ex){
+assertEquals("division by zero",
+ex.getMessage() );
+}
+}
 }
