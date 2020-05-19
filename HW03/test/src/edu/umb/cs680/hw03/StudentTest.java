@@ -6,9 +6,9 @@ import org.junit.jupiter.api.Test;
 
 class StudentTest {
 
-	Student inStateStudent = Student.createInStateStudent("banodaya", "Boston");
-	Student outStateStudent = Student.createOutStateStudent("clancy", "florida", 9,"Massachusetts");
-	Student internationalStudent = Student.createIntlStudent("vikas", "LosVegas", 234649, "india");
+	Student inStateStudent = Student.createInStateStudent("John", "Boston");
+	Student outStateStudent = Student.createOutStateStudent("Kedar", "Malibu", 9,"California");
+	Student internationalStudent = Student.createIntlStudent("Shaun", "LosVegas", 234649, "US");
 
 	@Test
 	public void StudentStatus_Instate() throws Exception {
