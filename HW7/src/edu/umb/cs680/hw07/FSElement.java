@@ -32,6 +32,6 @@ public abstract class FSElement {
 	public abstract boolean isDirectory();
 	
 	public static void main(String[] args) {
-		System.out.println("The class FSElement ran completely!!");
+		System.out.println("Success from FSElement.");
 	}
 }
