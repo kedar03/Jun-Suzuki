@@ -1,0 +1,35 @@
+Testcase: edu.umb.cs680.hw13.StockQuoteObservableTest
+Test: checkDijaQuote() took 3 milli sec(s)
+Tests run: 1, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 5 milli sec(s)
+------------- Standard Output ---------------
+
+ ThreeDObserver :
+ Ticker: JOHN
+ Quote: 65.0
+
+
+ TableObserver :
+ Ticker: JOHN
+ Quote: 65.0
+
+
+ Sent to piechart: 
+ Ticker:JOHN
+ Quote: 65.0
+
+
+ ThreeDObserver :
+ Ticker: ALEX
+ Quote: 70.0
+
+
+ TableObserver :
+ Ticker: ALEX
+ Quote: 70.0
+
+
+ Sent to piechart: 
+ Ticker:ALEX
+ Quote: 70.0
+
+------------- ---------------- ---------------
